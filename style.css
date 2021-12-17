@@ -1,0 +1,28 @@
+body{
+    background:url("background.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 45px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(92, 255, 154);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow:1px 1px 38px rgb(0, 207, 62)}
+    to {box-shadow: 1px 1px 38px rgb(0, 83, 14);}
+}
+
+#snapshot{
+    font-size: 22px;
+}
